@@ -22,7 +22,14 @@ public class Frame extends JFrame implements KeyListener {
 		this.addKeyListener(this);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);}
 		
-
+		/*
+		Timer t = new Timer(100, new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent e){
+				//move snake - body - check for bounds- check for apple
+			}
+		}
+		*/
 
 	@Override
 	public void keyTyped(KeyEvent e) {
