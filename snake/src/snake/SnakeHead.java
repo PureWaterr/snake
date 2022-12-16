@@ -5,6 +5,8 @@ import java.util.ArrayList;
 
 
 public class SnakeHead {
+	//attributes should be private with methods to access/change them
+	//private int posY - public int getPosY(){return posY;}
 	int posY;
 	int posX;
 	int height; 
