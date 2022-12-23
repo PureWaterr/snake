@@ -26,7 +26,7 @@ public class Frame extends JFrame implements KeyListener {
 		Timer t = new Timer(100, new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e){
-				//move snake - body - check for bounds- check for apple
+				//move snake - body - check for bounds- check for apple - repaint
 			}
 		}
 		*/
