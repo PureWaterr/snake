@@ -2,6 +2,7 @@ package snake;
 import java.awt.Color;
 
 public class Apple {
+	//attributes should be private and updated/acccessed with getters and setters
 	int posY;
 	int posX;
 	int height;
@@ -14,11 +15,18 @@ public class Apple {
 		this.height = height;
 		this.width = width;
 		this.c = c;
-
-
-		
 		
 	}
+	
+	/*
+	public void setPosX(int x){
+		posX = x;
+	}
+	
+	public int getPosX(){
+		return posX;
+	}
+	*/
 	
 	
 }
